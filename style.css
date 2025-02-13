@@ -31,6 +31,7 @@
     display: flex;
     width: 50%;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .header-links {
@@ -79,7 +80,7 @@ a {
     width: 90px;
     height: 30px;
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: white;
     font-weight: bold;
     border: none;
     border-radius: 4px;
@@ -93,7 +94,7 @@ a {
 }
 
 .subtext {
-    font-size: 18px;
+    font-size: 16px;
     color: #E5E7EB;
 }
 
@@ -127,23 +128,61 @@ a {
 .section3{
     display: flex;
     flex-direction: column;
-    padding: 100px;
-    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
     align-items: center;
     gap: 20px;
+    width: 400px;
+    box-sizing: content-box;
 }
 
-blockquote {
+.quote {
     font-size: 36px;
     font-style: italic;
     font color: #1F2937;
-    width: 50%;
-    font-weight: light;
-    
+    font-weight: lighter;
 }
 
 .attribution {
     align-self: flex-end;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.background-box {
+    display: flex;
+    background-color: #3882F6;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+h4 {
+    color: #E5E7EB;
+}
+
+.background-box .button {
+    border: 1px solid #E5E7EB;
+    font-weight: bold !important;
+}
+
+.footer {
+    background-color: #1F2937;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 
